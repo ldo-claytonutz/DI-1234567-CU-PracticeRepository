@@ -1,15 +1,7 @@
 
 # Guide for New Joiners
 
-
-## 1. Set up the repository
-1.	Go to the GitHub project page `https://github.com/ldo-claytonutz/DI-1234567-CU-PracticeRepository`
-2.	Under the **Code** section, copy the HTTPS link.
-3.	Open **VSCode** at a folder in your local machine.
-4.	In the Terminal, disable SSL verification (only if necessary): 
-    `git config --global http.sslVerify "false"`
-
-### A - Create a new Repository 
+## A - Create a new Repository 
 1. In Github, at the upper-right corner of any page, select `+`, then click **New repositor**y**.
 2. In the **Repository name** box, enter your Reposotiry Name: `DI-1234567-Client-MatterName`
 3. Enter a short description on the **Description** box. For example, type "This repository is for practicing GitHub."
@@ -17,10 +9,19 @@
 5. Select **Add a README file**.
 6. Click **Create repository**.
 
-### B - Clone an existing Repository 
-5.	Clone the repository: `git clone <paste the link here>`
-6.	Sign in using your browser and authorize GitHub access.
-7.	After signing in, go back to VSCode. You are now in the main branch.
+## B - Clone an existing Repository 
+
+## 1. Set up the repository
+1.	Go to the GitHub project page `https://github.com/ldo-claytonutz/DI-1234567-CU-PracticeRepository`
+2.	Under the **Code** section, copy the HTTPS link.
+3.	Open **VSCode** at a folder in your local machine.
+4.	In the Terminal, disable SSL verification (only if necessary): 
+    `git config --global http.sslVerify "false"`
+  	 *Note that Step 4 only need to be done when you first set up your account*
+  	
+6.	Clone the repository: `git clone <paste the link here>`
+7.	Sign in using your browser and authorize GitHub access.
+8.	After signing in, go back to VSCode. You are now in the main branch.
 
 ## 2. Verify your current branch
 1.	Navigate to the project directory (Terminal): `cd <your-project-directory>`
