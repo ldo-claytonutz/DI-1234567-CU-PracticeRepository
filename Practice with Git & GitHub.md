@@ -1,8 +1,8 @@
 
-# Guide for New Joiners
+# Practice with Git & GitHub
 
 ## A - Create a new Repository 
-1. In Github, at the upper-right corner of any page, select `+`, then click **New repositor**y**.
+1. In Github, at the upper-right corner of any page, select `+`, then click **New repository**.
 2. In the **Repository name** box, enter your Reposotiry Name: `DI-1234567-Client-MatterName`
 3. Enter a short description on the **Description** box. For example, type "This repository is for practicing GitHub."
 4. Set repository security as **Private**.
@@ -12,11 +12,12 @@
 ## B - Clone an existing Repository 
 
 ## 1. Set up the repository
-1.	Go to the GitHub project page `https://github.com/ldo-claytonutz/DI-1234567-CU-PracticeRepository`
-2.	Under the **Code** section, copy the HTTPS link.
-3.	Open **VSCode** at a folder in your local machine.
-4.	In the Terminal, disable SSL verification (only if necessary): 
+1. Go to the GitHub project page `https://github.com/ldo-claytonutz/DI-1234567-CU-PracticeRepository`
+2. Under the **Code** section, copy the HTTPS link.
+3. Open **VSCode** at a folder in your local machine.
+4. In the Terminal, disable SSL verification (only if necessary): 
     `git config --global http.sslVerify "false"`
+   
   	 *Note that Step 4 only need to be done when you first set up your account*
   	
 6.	Clone the repository: `git clone <paste the link here>`
@@ -36,14 +37,15 @@
 
 ## 4. Pull changes from main to your local branch (Do this everytime before starting work)
 1.	Switch to the main branch: `git checkout main`
-2.	Pull the latest changes: `git pull`
+2.	Pull the latest changes: `git pull` 
 3.	Switch back to your working branch: `git checkout <your-branch-name>`
-4.	Merge the latest main changes into your working branch: `git merge main`. 
-5. If you encounter a merge conflict: 
-o	Press i to enter insert mode.
-o	Write a merge message.
-o	Press Esc.
-o	Type :wq and press Enter to save and exit.
+4.	If you are in a branch and you SHOULD pull the latest changes from main before making a commit: `git pull origin main`
+5.	Merge the latest main changes into your working branch: `git merge main`. 
+6. If you encounter a merge conflict: 
+    - Press i to enter insert mode.
+    - Write a merge message.
+    - Press Esc.
+    - Type :wq and press Enter to save and exit.
 
 ## 5. Make changes and push to GitHub
 1.	Modify files as needed.
@@ -56,7 +58,7 @@ o	Type :wq and press Enter to save and exit.
 
 ## 7. Merge changes to main (after PRs being approval)
 1.	Once your changes are reviewed and approved, switch to main: `git checkout main`
-2.	Pull the latest updates: `git pull`
+2.	Pull the latest updates: `git pull` 
 3.	Merge your branch into main: `git merge <your-branch-name>`
 4.	Push the updated main branch to GitHub: `git push`
 
