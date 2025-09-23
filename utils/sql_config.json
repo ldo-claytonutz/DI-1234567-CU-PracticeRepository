@@ -1,0 +1,6 @@
+
+{
+  "server": "CUSYDTBLSQL102",
+  "database": "zzz_ldo",
+  "driver": "ODBC Driver 17 for SQL Server"
+}
