@@ -1,0 +1,7 @@
+# First Commit 
+
+Here is the page for you to make your first change and commit 
+Write down your name and your favorite city in the world
+
+Exmaple: 
+LDO - Sydney
